@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aetherius by devora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a9a9a3b8e5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header id="header">
+        <div class="container header-container">
+            <a href="#main" class="logo"><devora></a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#concept">Концепция</a></li>
+                    <li><a href="#products">Продукция</a></li>
+                    <li><a href="#platform">Платформа</a></li>
+                    <li><a href="#architecture">Архитектура</a></li>
+                    <li><a href="#about">О нас</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="btn btn-outline">Запросить демонстрацию</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- SECTION 1: Главный экран -->
+        <section id="main" class="hero-section">
+            <div class="hero-background"></div>
+            <div class="container hero-content">
+                <div class="hero-logo"><devora> представляет</div>
+                <h1>AETHERIUS</h1>
+                <h3>Комплексная архитектура безопасности нового поколения</h3>
+            </div>
+            <a href="#concept" class="scroll-down">
+                <div class="scroll-down-icon"></div>
+            </a>
+        </section>
+
+        <!-- SECTION 2: Концепция -->
+        <section id="concept" class="content-section">
+            <div class="container">
+                <h2>ЕДИНАЯ ЭКОСИСТЕМА. ПОЛНЫЙ КОНТРОЛЬ.</h2>
+                <p class="section-subtitle">
+                    Aetherius — это эшелонированная система, объединяющая беспилотные аппараты, мобильные комплексы развертывания и передовой ИИ. Мы создали ее для кардинального повышения эффективности операций, сокращения времени реагирования и сохранения жизней личного состава сил обеспечения безопасности РФ.
+                </p>
+                <div class="placeholder" style="height: 200px;">
+                    <span>[Визуализация: 5 вложенных анимированных слоев архитектуры]</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: Продукция -->
+        <section id="products" class="content-section">
+            <div class="container">
+                <h2>ИНСТРУМЕНТАРИЙ</h2>
+                <div class="tabs-container">
+                    <div class="tab-buttons">
+                        <button class="tab-button active" data-tab="tab-1">Аппаратные платформы</button>
+                        <button class="tab-button" data-tab="tab-2">Системы развертывания</button>
+                    </div>
+                    <div class="tab-content-container">
+                        <div id="tab-1" class="tab-content active">
+                            <div class="product-grid">
+                                <div class="card">
+                                    <div class="placeholder card-placeholder">[3D-рендер "Страж"]</div>
+                                    <h3>Класс "Страж"</h3>
+                                    <span class="tag">НАБЛЮДЕНИЕ</span>
+                                    <p>Тяжелая платформа для стабильного мониторинга, целеуказания и несения сложного оборудования. "Глаза в небе".</p>
+                                </div>
+                                <div class="card">
+                                    <div class="placeholder card-placeholder">[3D-рендер "Коршун"]</div>
+                                    <h3>Класс "Коршун"</h3>
+                                    <span class="tag">ТАКТИЧЕСКОЕ ВОЗДЕЙСТВИЕ</span>
+                                    <p>Модульный FPV-дрон. <strong>"Коршун-К"</strong> для нелетального перехвата. <strong>"Коршун-Ф"</strong> для точечного поражения.</p>
+                                </div>
+                                <div class="card">
+                                    <div class="placeholder card-placeholder">[Чертеж "Дозор"]</div>
+                                    <h3>Класс "Дозор"</h3>
+                                    <span class="tag">СТРАТЕГИЧЕСКИЙ МОНИТОРИНГ</span>
+                                    <p>Длительные полеты (до 10+ часов) для контроля протяженных объектов: границ, трубопроводов, трасс.</p>
+                                </div>
+                                <div class="card">
+                                    <div class="placeholder card-placeholder">[Схема "Стилет"]</div>
+                                    <h3>Класс "Стилет"</h3>
+                                    <span class="tag">ВЫСОКОТОЧНОЕ ПОРАЖЕНИЕ</span>
+                                    <p>Барражирующий боеприпас для нейтрализации защищенных, бронированных или групповых целей.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-content">
+                             <div class="product-grid-3">
+                                 <div class="card">
+                                    <div class="placeholder card-placeholder">[Чертеж "Гея"]</div>
+                                     <h3>Класс "Гея"</h3>
+                                     <span class="tag">СКРЫТНАЯ ДОСТАВКА</span>
+                                     <p>Роботизированная платформа "последней мили". Доставляет дроны в опасную зону, сохраняя жизнь оператора.</p>
+                                 </div>
+                                 <div class="card">
+                                    <div class="placeholder card-placeholder">[Схема "Ковчег"]</div>
+                                     <h3>Комплекс "Ковчег"</h3>
+                                     <span class="tag">МОБИЛЬНЫЙ КОМАНДНЫЙ ПУНКТ</span>
+                                     <p>Автомобиль-носитель, мозг и центр связи для координации комплексных операций в любой точке.</p>
+                                 </div>
+                                 <div class="card">
+                                    <div class="placeholder card-placeholder">[Схема "Гнездо"]</div>
+                                     <h3>Пост "Гнездо"</h3>
+                                     <span class="tag">АВТОНОМНОЕ БАЗИРОВАНИЕ</span>
+                                     <p>Стационарный комплекс для автоматического вылета, обслуживания и зарядки дронов 24/7 без участия человека.</p>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: Платформа -->
+        <section id="platform" class="content-section">
+            <div class="container platform-container">
+                <div class="platform-text">
+                    <h2>ПРОГРАММНЫЙ КОМПЛЕКС "AETHERIUS"</h2>
+                    <p>Это не просто дроны, это интеллектуальная система. Она берет на себя рутину, анализирует потоки данных и помогает принимать верные решения, оставляя финальное слово за человеком.</p>
+                    <ul>
+                        <li><span>Helios (Планирование):</span> Автоматическая проверка маршрутов и выбор оптимальных средств.</li>
+                        <li><span>Ares (Управление):</span> ИИ-автопилот, роевой интеллект и облет препятствий.</li>
+                        <li><span>Oracle (Анализ):</span> Распознавание целей и уязвимых точек в режиме "human-in-the-loop".</li>
+                        <li><span>Nexus (Интерфейс):</span> Единое окно оператора с многоступенчатым протоколом подтверждения.</li>
+                    </ul>
+                </div>
+                <div class="platform-visual">
+                    <div class="placeholder" style="height: 100%; min-height: 400px;">[Макет интерфейса "Nexus"]</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 5: Архитектура -->
+        <section id="architecture" class="content-section">
+            <div class="container">
+                <h2>НАДЕЖНОСТЬ. ЗАКОННОСТЬ. ГОТОВНОСТЬ.</h2>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-header">Системы защиты и обеспечения</button>
+                        <div class="accordion-content">
+                            <p>Модуль РЭП "Купол" с системой "свой-чужой". Модульная конструкция аппаратов для полевого ремонта. Защищенная ОС на базе Linux и сквозное шифрование каналов связи по ГОСТ.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">Подготовка кадров</button>
+                        <div class="accordion-content">
+                            <p>Трехуровневая программа подготовки: от базового пилота до оператора-тактика. Обязательное психологическое сопровождение.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">Юридическое обеспечение</button>
+                        <div class="accordion-content">
+                            <p>Внедрение протокола применения силы "Перехват" с обязательным правилом "двух ключей" для летальных систем. Строгий регламент работы с данными в соответствии с ФЗ-152.</p>
+                        </div>
+                    </div>
+                     <div class="accordion-item">
+                        <button class="accordion-header">Интеграция и масштабирование</button>
+                        <div class="accordion-content">
+                            <p>Стандартизированный API для бесшовной интеграции платформы "Aetherius" с существующими ведомственными системами, включая "Безопасный город".</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 6: О нас -->
+        <section id="about" class="content-section text-center">
+            <div class="container">
+                <div class="logo-large"><devora></div>
+                <p class="section-subtitle" style="max-width: 600px; margin: 20px auto 30px;">
+                    Мы — команда российских инженеров, программистов и стратегов. Мы создаем грандиозные по замыслу, но простые и надежные в использовании технологические решения для обеспечения безопасности.
+                </p>
+                <div class="social-links">
+                    <a href="https://github.com/aeidea1/me" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://vk.com/devoraproject" target="_blank"><i class="fab fa-vk"></i> VKontakte</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 7: Контакты -->
+        <section id="contact" class="content-section">
+             <div class="container text-center">
+                 <h2>СВЯЗЬ</h2>
+                 <p class="section-subtitle">Запросите закрытую демонстрацию платформы "Aetherius" или обсудите возможности сотрудничества.</p>
+                 <form class="contact-form">
+                     <div class="form-row">
+                         <input type="text" placeholder="Ваше имя" required>
+                         <input type="text" placeholder="Организация" required>
+                     </div>
+                     <input type="email" placeholder="Email для связи" required>
+                     <textarea placeholder="Сообщение (необязательно)"></textarea>
+                     <button type="submit" class="btn btn-primary">Отправить запрос</button>
+                 </form>
+             </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-left"><devora> © 2024</div>
+            <div class="footer-center">
+                <a href="#">Политика обработки данных</a>
+            </div>
+            <div class="footer-right">
+                <a href="#main">Наверх ↑</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
